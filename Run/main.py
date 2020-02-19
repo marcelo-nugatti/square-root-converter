@@ -20,7 +20,7 @@ while date < 0:
     print("")
     counter -= 1
     date = int(input("Ingresa un número: "))
-    #-Si fallas 5 veces, para el bucle.
+    #-Si fallas 5 veces, ¡Pára el bucle!.
     if counter == 0:
         print("")
         print("Lo siento, hiciste muchos intentos")
